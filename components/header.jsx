@@ -59,9 +59,10 @@ const Header = async () => {
               </Button>
             </a>
           </SignedIn>
+          
           <SignedOut>
             <SignInButton forceRedirectUrl="/dashboard">
-              <Button variant="outline">Login</Button>
+               <Button variant="outline" className="bg-inherit hover:bg-gradient from-blue-600 to-purple-600bg-transparent text-gray-400 hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 hover:text-white border border-gray-600">Login</Button>
             </SignInButton>
           </SignedOut>
           <SignedIn>
